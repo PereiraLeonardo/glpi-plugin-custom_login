@@ -1,0 +1,37 @@
+1679934628
+28f29384bb7f4cad73d556a403701e36b68d935d
+a:1:{s:58:"bn_count_tickets_late_6b6803b2-344f-438e-9edb-db5f6a093cd8";s:2105:"      <style>
+         #bn_551215136 {
+            background-color: #27ab3c;
+            color: #b1edba;
+         }
+
+         #bn_551215136:hover {
+            background-color: #49d55f;
+            border: 1px solid #87e496;
+         }
+
+         .theme-dark #bn_551215136 {
+            background-color: #b1edba;
+            color: #27ab3c;
+         }
+
+         .theme-dark #bn_551215136:hover {
+            background-color: #49d55f;
+            color: #b1edba;
+            border: 1px solid #87e496;
+         }
+      </style>
+      <a href='/glpi/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=notold&criteria%5B1%5D%5Blink%5D=AND&criteria%5B1%5D%5Bcriteria%5D%5B0%5D%5Bfield%5D=82&criteria%5B1%5D%5Bcriteria%5D%5B0%5D%5Bsearchtype%5D=equals&criteria%5B1%5D%5Bcriteria%5D%5B0%5D%5Bvalue%5D=1&criteria%5B1%5D%5Bcriteria%5D%5B1%5D%5Blink%5D=OR&criteria%5B1%5D%5Bcriteria%5D%5B1%5D%5Bfield%5D=182&criteria%5B1%5D%5Bcriteria%5D%5B1%5D%5Bsearchtype%5D=equals&criteria%5B1%5D%5Bcriteria%5D%5B1%5D%5Bvalue%5D=1&criteria%5B1%5D%5Bcriteria%5D%5B2%5D%5Blink%5D=OR&criteria%5B1%5D%5Bcriteria%5D%5B2%5D%5Bfield%5D=159&criteria%5B1%5D%5Bcriteria%5D%5B2%5D%5Bsearchtype%5D=equals&criteria%5B1%5D%5Bcriteria%5D%5B2%5D%5Bvalue%5D=1&criteria%5B1%5D%5Bcriteria%5D%5B3%5D%5Blink%5D=OR&criteria%5B1%5D%5Bcriteria%5D%5B3%5D%5Bfield%5D=187&criteria%5B1%5D%5Bcriteria%5D%5B3%5D%5Bsearchtype%5D=equals&criteria%5B1%5D%5Bcriteria%5D%5B3%5D%5Bvalue%5D=1&reset=reset'
+         id="bn_551215136"
+         class="card big-number  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         title="">
+         <span class="content">            <span title="2"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">2</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Chamados atrasados">Chamados atrasados</div>
+         <i class="main-icon far fa-clock"></i>
+      </a>";}

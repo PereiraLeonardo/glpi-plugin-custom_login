@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MoreTicket Development Team
+# This file is distributed under the same license as the GLPI - MoreTicket plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tiago Graça, 2022
+# Xavier CAILLAUD <thetsmr@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI - MoreTicket plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-25 08:43+0000\n"
+"PO-Revision-Date: 2020-11-02 16:11+0000\n"
+"Last-Translator: Xavier CAILLAUD <thetsmr@gmail.com>, 2022\n"
+"Language-Team: French (Canada) (https://www.transifex.com/infotelGLPI/teams/50826/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: hook.php:254 hook.php:261 hook.php:268 hook.php:275
+#: inc/closeticket.class.php:75 inc/closeticket.class.php:79
+#: inc/closeticket.class.php:121 inc/closeticket.class.php:179
+#: inc/closeticket.class.php:330 inc/closeticket.class.php:384
+#: inc/config.class.php:174
+msgid "Close ticket informations"
+msgstr "Informations de clôture des tickets"
+
+#: hook.php:289
+msgid "Updated by a user"
+msgstr "Mis à jour par un utilisateur"
+
+#: setup.php:117 inc/profile.class.php:49 inc/profile.class.php:194
+msgid "More ticket"
+msgstr "Plus de ticket"
+
+#: front/config.form.php:66
+msgid "Please activate the plugin"
+msgstr "Merci d'activer le plugin"
+
+#: inc/closeticket.class.php:136 inc/closeticket.class.php:496
+msgid "Solution description"
+msgstr "Description de la solution"
+
+#: inc/closeticket.class.php:155
+msgid "Ticket cannot be closed"
+msgstr "Impossible de clore le ticket"
+
+#: inc/closeticket.class.php:620
+#, php-format
+msgid "%1$s added closing informations"
+msgstr "%1$s a ajouté des informations de clôture"
+
+#: inc/closeticket.class.php:639
+#, php-format
+msgid "%1$s updated closing informations"
+msgstr "%1$s a mis à jour des informations de clôture"
+
+#: inc/closeticket.class.php:658
+#, php-format
+msgid "%1$s deleted closing informations"
+msgstr "%1$s a supprimé des informations de clôture"
+
+#: inc/config.class.php:147
+msgid "Ticket resolution and close"
+msgstr "Résolution et clôture du ticket"
+
+#: inc/config.class.php:149
+msgid "Use solution process"
+msgstr "Utiliser le bloc solution à la création du ticket"
+
+#: inc/config.class.php:167
+msgid "Solution type is mandatory"
+msgstr "Le type de solution est obligatoire"
+
+#: inc/config.class.php:180
+msgid "Status used to display solution block"
+msgstr "Statuts utilisés pour afficher le bloc de solution"
+
+#: inc/config.class.php:193
+msgid "Add a followup on immediate ticket closing"
+msgstr "Ajouter un suivi lors de la clôture du ticket"
+
+#: inc/config.class.php:199
+msgid "Use the 'Duration' field in the add solution interface"
+msgstr "Utilisez le champ 'Durée' dans l'interface d'ajout de solution."
+
+#: inc/config.class.php:213
+msgid "Mandatory 'Duration' field"
+msgstr "Champ 'Durée' obligatoire"
+
+#: inc/config.class.php:218
+msgid "Ticket urgency"
+msgstr "Urgence de ticket"
+
+#: inc/config.class.php:220
+msgid "Use a justification of the urgency field"
+msgstr "Utiliser une zone de justification sur l'urgence"
+
+#: inc/config.class.php:236
+msgid "Urgency impacted justification for the field"
+msgstr "Urgences impactées pour la zone de justification"
+
+#: inc/config.class.php:264
+msgid "Update ticket status"
+msgstr "Mise à jour des statuts de tickets"
+
+#: inc/config.class.php:267
+msgid "Update ticket status to processing after add document"
+msgstr "Mise à jour du statut du ticket à en cours après ajout d'un document"
+
+#: inc/config.class.php:273
+msgid "Update ticket status to processing after approval"
+msgstr "Mise à jour du statut du ticket à en cours après approbation"
+
+#: inc/profile.class.php:158
+msgid "Adding a justification of urgency"
+msgstr "Ajout d'une zone de justification pour l'urgence"
+
+#: inc/profile.class.php:166
+msgid "Hide task duration in tickets"
+msgstr "Cacher la durée des tâches des tickets"
+
+#: inc/urgencyticket.class.php:69 inc/urgencyticket.class.php:164
+msgid "Justification"
+msgstr "Justification"
+
+#: inc/urgencyticket.class.php:92
+msgid "Urgency ticket cannot be saved"
+msgstr "Impossible d'enregistrer l'urgence du ticket"
+
+#: inc/urgencyticket.class.php:94
+msgid "Ticket cannot be saved"
+msgstr "Impossible d'enregistrer le ticket"
+
+#: inc/waitingtype.class.php:48
+msgid "Waiting type"
+msgid_plural "Waiting types"
+msgstr[0] "Type d'attente"
+msgstr[1] "Types d'attente"

@@ -1,0 +1,37 @@
+1674052350
+9f7abdd43631c2ce58b480e60f54b1c749c27786
+a:1:{s:50:"bn_count_User_d57b1336-5f94-46a4-9221-c228fa5857a4";s:1083:"      <style>
+         #bn_941199850 {
+            background-color: #fcf157;
+            color: #857c02;
+         }
+
+         #bn_941199850:hover {
+            background-color: #fbeb0c;
+            border: 1px solid #b7ab03;
+         }
+
+         .theme-dark #bn_941199850 {
+            background-color: #857c02;
+            color: #fcf157;
+         }
+
+         .theme-dark #bn_941199850:hover {
+            background-color: #fbeb0c;
+            color: #857c02;
+            border: 1px solid #b7ab03;
+         }
+      </style>
+      <a href='/glpi/front/user.php?reset=reset'
+         id="bn_941199850"
+         class="card big-number  filter-dates filter-dates_mod filter-location"
+         title="">
+         <span class="content">            <span title="220"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">220</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Usuários">Usuários</div>
+         <i class="main-icon ti ti-user"></i>
+      </a>";}

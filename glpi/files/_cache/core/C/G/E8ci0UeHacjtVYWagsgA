@@ -1,0 +1,37 @@
+1674052358
+96d7a7abfbfa9e1ab0cb9f435ab9a384e3149ef5
+a:1:{s:53:"bn_count_Project_b533a8ad-1cce-4c27-9c4a-a4257118cd86";s:1071:"      <style>
+         #bn_663384873 {
+            background-color: #8e7cc3;
+            color: #2f244f;
+         }
+
+         #bn_663384873:hover {
+            background-color: #634ca6;
+            border: 1px solid #443472;
+         }
+
+         .theme-dark #bn_663384873 {
+            background-color: #2f244f;
+            color: #8e7cc3;
+         }
+
+         .theme-dark #bn_663384873:hover {
+            background-color: #634ca6;
+            color: #2f244f;
+            border: 1px solid #443472;
+         }
+      </style>
+      <a href='/glpi/front/project.php?reset=reset'
+         id="bn_663384873"
+         class="card big-number  filter-dates filter-dates_mod"
+         title="">
+         <span class="content">            <span title="0"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">0</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Projeto">Projeto</div>
+         <i class="main-icon ti ti-layout-kanban"></i>
+      </a>";}

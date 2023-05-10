@@ -1,0 +1,37 @@
+1673457391
+d94d9c988faac250a6d40ce8230781a0d1e6825a
+a:1:{s:61:"bn_count_tickets_planned_267bf627-9d5e-4b6c-b53d-b8623d793ccf";s:1289:"      <style>
+         #bn_1631404618 {
+            background-color: #6298d5;
+            color: #173454;
+         }
+
+         #bn_1631404618:hover {
+            background-color: #3171b9;
+            border: 1px solid #214c7d;
+         }
+
+         .theme-dark #bn_1631404618 {
+            background-color: #173454;
+            color: #6298d5;
+         }
+
+         .theme-dark #bn_1631404618:hover {
+            background-color: #3171b9;
+            color: #173454;
+            border: 1px solid #214c7d;
+         }
+      </style>
+      <a href='/glpi/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=3&reset=reset'
+         id="bn_1631404618"
+         class="card big-number  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         title="">
+         <span class="content">            <span title="0"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">0</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Chamados planejados">Chamados planejados</div>
+         <i class="main-icon fas fa-calendar-check"></i>
+      </a>";}

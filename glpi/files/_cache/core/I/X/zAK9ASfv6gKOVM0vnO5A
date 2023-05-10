@@ -1,0 +1,37 @@
+1683571064
+3e08f6bc8cc91700548a746d06887a709750afbe
+a:1:{s:60:"bn_count_tickets_closed_6da9a89d-fed0-4314-bc96-b6bf61e908f4";s:1278:"      <style>
+         #bn_1342969359 {
+            background-color: #660000;
+            color: #ff3333;
+         }
+
+         #bn_1342969359:hover {
+            background-color: #b30000;
+            border: 1px solid #ff0000;
+         }
+
+         .theme-dark #bn_1342969359 {
+            background-color: #ff3333;
+            color: #660000;
+         }
+
+         .theme-dark #bn_1342969359:hover {
+            background-color: #b30000;
+            color: #ff3333;
+            border: 1px solid #ff0000;
+         }
+      </style>
+      <a href='/glpi/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=6&reset=reset'
+         id="bn_1342969359"
+         class="card big-number  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         title="">
+         <span class="content">            <span title="0"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">0</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Chamados fechados">Chamados fechados</div>
+         <i class="main-icon fas fa-archive"></i>
+      </a>";}

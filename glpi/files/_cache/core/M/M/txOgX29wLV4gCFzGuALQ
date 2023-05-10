@@ -1,0 +1,89 @@
+1681818319
+8931dc65b7d854947f534467b57b3545918c89d5
+a:1:{s:64:"count_Computer_ComputerType_c58f9c7e-22d5-478b-8226-d2a752bcbb09";s:3939:"      <style>
+         #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca {
+            background-color: #f5f9fa;
+            color: #6da7b6
+         }
+
+         .theme-dark #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca {
+            background-color: #1d343a;
+            color: #6da7b6;
+         }
+
+         #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-label {
+            fill: #6da7b6;
+            color: #6da7b6;
+         }
+
+         .theme-dark #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-label {
+            fill: #6da7b6;
+            color: #6da7b6;
+         }
+
+         .dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca {
+  /*!
+ * ---------------------------------------------------------------------
+ *
+ * GLPI - Gestionnaire Libre de Parc Informatique
+ *
+ * http://glpi-project.org
+ *
+ * @copyright 2015-2022 Teclib' and contributors.
+ * @copyright 2003-2014 by the INDEPNET Development Team.
+ * @licence   https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * ---------------------------------------------------------------------
+ *
+ * LICENSE
+ *
+ * This file is part of GLPI.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ * ---------------------------------------------------------------------
+ */
+}
+.dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-point, .dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-line, .dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-bar, .dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-slice-donut {
+  stroke: #6da7b6;
+}
+.dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-bar + .ct-barlabel {
+  fill: setcolor(#6da7b6);
+}
+.dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-circle {
+  fill: #6da7b6;
+}
+.dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-circle + .ct-label {
+  fill: #6da7b6;
+}
+.dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-slice-pie, .dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-area, .dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-a .ct-slice-donut-solid {
+  fill: #6da7b6;
+  stroke: setcolor(#6da7b6);
+}
+.dashboard #chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca .ct-series-0:before {
+  background-color: #6da7b6;
+  border-color: #6da7b6;
+}
+
+      </style>
+      <div style="height: 100%">
+         <div class="card g-chart pie donut filter-dates filter-dates_mod filter-location filter-manufacturer filter-group_tech filter-user_tech filter-state"
+            id="chart-dashboard_card_assets_8da11511f9914373c067aa0c47459f52197ebfca">
+            <div class="chart ct-chart"><span class='empty-card no-data'>
+               <div>Nenhum dado encontrado</div>
+            <span></div>
+            <span class="main-label">Computadores por Tipo</span>
+            <i class="main-icon ti ti-device-laptop"></i>
+         </div>
+      </div>";}

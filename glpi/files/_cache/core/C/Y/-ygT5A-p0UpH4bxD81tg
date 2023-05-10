@@ -1,0 +1,37 @@
+1673464851
+98e6d9293266ee87eac62b329720d44d6a3fb6ba
+a:1:{s:52:"bn_count_Change_ab950dbd-cd25-466d-8dff-7dcaca386564";s:1079:"      <style>
+         #bn_2081776411 {
+            background-color: #cae3c4;
+            color: #569546;
+         }
+
+         #bn_2081776411:hover {
+            background-color: #9bca90;
+            border: 1px solid #6db25c;
+         }
+
+         .theme-dark #bn_2081776411 {
+            background-color: #569546;
+            color: #cae3c4;
+         }
+
+         .theme-dark #bn_2081776411:hover {
+            background-color: #9bca90;
+            color: #569546;
+            border: 1px solid #6db25c;
+         }
+      </style>
+      <a href='/glpi/front/change.php?reset=reset'
+         id="bn_2081776411"
+         class="card big-number  filter-dates filter-dates_mod"
+         title="">
+         <span class="content">            <span title="0"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">0</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Mudança">Mudança</div>
+         <i class="main-icon ti ti-clipboard-check"></i>
+      </a>";}

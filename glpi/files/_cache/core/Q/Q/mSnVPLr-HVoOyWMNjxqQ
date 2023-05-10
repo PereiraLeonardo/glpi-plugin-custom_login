@@ -1,0 +1,37 @@
+1674052357
+b8479a12840e078d35a0b0b222e3e1ea3074fa93
+a:1:{s:51:"bn_count_Group_b84a93f2-a26c-49d7-82a4-5446697cc5b0";s:1059:"      <style>
+         #bn_771418980 {
+            background-color: #e0e0e0;
+            color: #7a7a7a;
+         }
+
+         #bn_771418980:hover {
+            background-color: #bababa;
+            border: 1px solid #949494;
+         }
+
+         .theme-dark #bn_771418980 {
+            background-color: #7a7a7a;
+            color: #e0e0e0;
+         }
+
+         .theme-dark #bn_771418980:hover {
+            background-color: #bababa;
+            color: #7a7a7a;
+            border: 1px solid #949494;
+         }
+      </style>
+      <a href='/glpi/front/group.php?reset=reset'
+         id="bn_771418980"
+         class="card big-number  filter-dates filter-dates_mod"
+         title="">
+         <span class="content">            <span title="7"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">7</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Grupos">Grupos</div>
+         <i class="main-icon ti ti-users"></i>
+      </a>";}

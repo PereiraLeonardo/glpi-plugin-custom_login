@@ -1,0 +1,1569 @@
+[2023-01-10 15:54:38] glpiphplog.WARNING: Test logger  
+[2023-01-10 16:15:58] glpiphplog.WARNING: Test logger  
+[2023-01-10 16:54:41] glpiphplog.WARNING: Test logger  
+[2023-01-10 17:05:20] glpiphplog.WARNING: Test logger  
+[2023-01-10 17:17:38] glpiphplog.WARNING: Test logger  
+[2023-01-10 17:25:56] glpiphplog.WARNING: Test logger  
+[2023-01-10 17:26:54] glpiphplog.WARNING: Test logger  
+[2023-01-10 17:33:16] glpiphplog.WARNING: Test logger  
+[2023-01-11 07:41:50] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to a member function getTime() on null in /var/www/html/glpi/src/Html.php at line 786
+  Backtrace :
+  src/Html.php:1936                                  Html::displayDebugInfos()
+  src/Html.php:2156                                  Html::footer()
+  src/Html.php:949                                   Html::nullFooter()
+  src/Session.php:1525                               Html::displayErrorAndDie()
+  install/install.php:546                            Session::checkCSRF()
+  
+[2023-01-11 07:41:50] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/glpi/src/Html.php line 6855
+Compile css/palettes/auror.scss  {"user":"@canatiba"} 
+[2023-01-11 07:44:15] glpiphplog.WARNING: Test logger  
+[2023-01-11 08:01:04] glpiphplog.WARNING: Test logger  
+[2023-01-11 08:01:11] glpiphplog.WARNING: Test logger  
+[2023-01-11 08:01:43] glpiphplog.WARNING: Test logger  
+[2023-01-11 11:14:43] glpiphplog.WARNING: Test logger  
+[2023-01-11 11:21:41] glpiphplog.WARNING: Test logger  
+[2023-01-11 13:30:22] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to a member function getTime() on null in /var/www/html/glpi/src/Html.php at line 786
+  Backtrace :
+  src/Html.php:1936                                  Html::displayDebugInfos()
+  src/Html.php:2156                                  Html::footer()
+  src/Html.php:949                                   Html::nullFooter()
+  src/Session.php:1525                               Html::displayErrorAndDie()
+  install/install.php:546                            Session::checkCSRF()
+  
+[2023-01-11 13:31:19] glpiphplog.WARNING: Test logger  
+[2023-01-11 13:36:05] glpiphplog.WARNING: Test logger  
+[2023-01-11 13:36:07] glpiphplog.WARNING: Test logger  
+[2023-01-11 14:03:46] glpiphplog.WARNING: Test logger  
+[2023-01-13 11:47:32] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot connect to host; error = stream_socket_client(): Unable to connect to tcp://outlook.office365.com:143 (Connection timed out) (errno = 0 ) in /var/www/html/glpi/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php at line 100
+  Backtrace :
+  ...r/laminas/laminas-mail/src/Protocol/Imap.php:85 Laminas\Mail\Protocol\Imap->setupSocket()
+  ...r/laminas/laminas-mail/src/Storage/Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src/Toolbox.php:2196                               Laminas\Mail\Storage\Imap->__construct()
+  src/MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src/MailCollector.php:698                          MailCollector->connect()
+  front/mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-01-13 12:08:52] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot connect to host; error = stream_socket_client(): Unable to connect to tcp://outlook.office365.com:143 (Connection timed out) (errno = 0 ) in /var/www/html/glpi/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php at line 100
+  Backtrace :
+  ...r/laminas/laminas-mail/src/Protocol/Imap.php:85 Laminas\Mail\Protocol\Imap->setupSocket()
+  ...r/laminas/laminas-mail/src/Storage/Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src/Toolbox.php:2196                               Laminas\Mail\Storage\Imap->__construct()
+  src/MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src/MailCollector.php:698                          MailCollector->connect()
+  src/MailCollector.php:1852                         MailCollector->collect()
+  src/CronTask.php:1018                              MailCollector::cronMailgate()
+  front/cron.php:64                                  CronTask::launch()
+  
+[2023-01-13 13:37:08] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 13:39:24] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 13:39:32] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 13:40:32] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 13:40:40] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 13:40:55] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 13:41:50] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 13:42:00] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 13:42:30] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot connect to host; error = stream_socket_client(): Unable to connect to tcp://outlook.office365.com:143 (Connection timed out) (errno = 0 ) in /var/www/html/glpi/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php at line 100
+  Backtrace :
+  ...r/laminas/laminas-mail/src/Protocol/Imap.php:85 Laminas\Mail\Protocol\Imap->setupSocket()
+  ...r/laminas/laminas-mail/src/Storage/Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src/Toolbox.php:2196                               Laminas\Mail\Storage\Imap->__construct()
+  src/MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src/MailCollector.php:698                          MailCollector->connect()
+  src/MailCollector.php:1852                         MailCollector->collect()
+  src/CronTask.php:1018                              MailCollector::cronMailgate()
+  front/cron.php:64                                  CronTask::launch()
+  
+[2023-01-13 13:43:26] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 1875
+  Backtrace :
+  src/AuthLDAP.php:1875                              ldap_search()
+  src/AuthLDAP.php:2033                              AuthLDAP::searchForUsers()
+  src/AuthLDAP.php:4448                              AuthLDAP::getAllUsers()
+  src/AuthLDAP.php:1672                              AuthLDAP::getUsers()
+  src/AuthLDAP.php:3940                              AuthLDAP::showLdapUsers()
+  front/ldap.import.php:69                           AuthLDAP::searchUser()
+  
+[2023-01-13 16:14:23] glpiphplog.WARNING: Test logger  
+[2023-01-13 16:14:42] glpiphplog.WARNING: Test logger  
+[2023-01-13 16:15:12] glpiphplog.WARNING: Test logger  
+[2023-01-13 16:15:49] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Something went wrong searching in LDAP directory in /var/www/html/glpi/src/AuthLDAP.php at line 3386
+  Backtrace :
+  src/Auth.php:270                                   AuthLDAP::searchUserDn()
+  src/AuthLDAP.php:3177                              Auth->connection_ldap()
+  src/AuthLDAP.php:3295                              AuthLDAP::ldapAuth()
+  src/Auth.php:909                                   AuthLDAP::tryLdapAuth()
+  front/login.php:89                                 Auth->login()
+  
+[2023-01-13 16:19:03] glpiphplog.WARNING:   *** PHP Warning (2): ldap_search(): Search: No such object in /var/www/html/glpi/src/AuthLDAP.php at line 3370
+  Backtrace :
+  src/AuthLDAP.php:3370                              ldap_search()
+  src/Auth.php:821                                   AuthLDAP::searchUserDn()
+  front/login.php:89                                 Auth->login()
+  
+[2023-01-13 16:19:03] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Something went wrong searching in LDAP directory in /var/www/html/glpi/src/AuthLDAP.php at line 3386
+  Backtrace :
+  src/Auth.php:821                                   AuthLDAP::searchUserDn()
+  front/login.php:89                                 Auth->login()
+  
+[2023-01-13 16:36:49] glpiphplog.WARNING: Test logger  
+[2023-01-13 16:37:48] glpiphplog.WARNING: Test logger  
+[2023-01-13 16:51:48] glpiphplog.WARNING: Test logger  
+[2023-01-13 16:53:08] glpiphplog.WARNING: Test logger  
+[2023-01-13 16:56:14] glpiphplog.WARNING: Test logger  
+[2023-01-13 17:13:41] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "notificationtemplates_id" in /var/www/html/glpi/front/notificationtemplatetranslation.form.php at line 49  
+[2023-01-13 17:16:22] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "notificationtemplates_id" in /var/www/html/glpi/front/notificationtemplatetranslation.form.php at line 49  
+[2023-01-18 09:13:19] glpiphplog.WARNING: Test logger  
+[2023-01-18 11:38:14] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:38:36] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:39:05] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:41:51] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:41:51] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:41:51] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:43:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:43:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:43:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:45:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:45:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:45:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:57:03] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:57:03] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-01-18 11:57:03] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-19 06:40:40] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-19 06:40:40] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-19 06:40:40] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-19 06:41:48] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-19 06:41:48] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-19 06:41:48] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-20 17:17:56] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-20 17:17:56] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-20 17:17:56] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-21 14:56:15] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 14:56:31] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 14:56:37] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 14:56:43] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 14:56:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 14:56:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 14:56:56] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 14:57:01] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 14:57:15] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:00:38] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:00:45] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:00:54] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:02:22] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:03:55] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:04:28] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:05:09] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:05:20] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:05:23] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:05:27] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:05:31] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:05:49] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:06:00] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:06:07] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:06:24] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:06:37] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:06:45] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:06:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonITILObject.php at line 433
+  Backtrace :
+  src/ITILTemplate.php:516                           CommonITILObject->showForm()
+  src/ITILTemplate.php:394                           ITILTemplate::showCentralPreview()
+  src/CommonGLPI.php:689                             ITILTemplate::displayTabContentForItem()
+  src/CommonGLPI.php:653                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-03-21 15:18:55] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-21 15:18:55] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-21 15:18:55] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-21 16:08:47] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-21 16:08:47] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-21 16:08:47] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-22 09:35:19] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-22 09:35:19] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-22 09:35:19] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-22 16:54:56] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-22 16:54:56] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-22 16:54:56] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 08:15:03] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 08:15:03] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 08:57:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 08:57:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 08:57:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:10:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:10:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:10:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:13:52] glpiphplog.WARNING:   *** PHP User Warning (512): getFromDBByCrit expects to get one result, 2 found in query "SELECT `id` FROM `glpi_users` WHERE `name` = 'Leonardo'". in /var/www/html/glpi/src/CommonDBTM.php at line 396
+  Backtrace :
+  src/CommonDBTM.php:396                             trigger_error()
+  src/User.php:459                                   CommonDBTM->getFromDBByCrit()
+  src/Auth.php:760                                   User->getFromDBbyName()
+  front/login.php:89                                 Auth->login()
+  
+[2023-03-23 15:19:25] glpiphplog.WARNING: Test logger  
+[2023-03-23 15:19:39] glpiphplog.WARNING: Test logger  
+[2023-03-23 15:19:54] glpiphplog.WARNING: Test logger  
+[2023-03-23 15:20:04] glpiphplog.WARNING: Test logger  
+[2023-03-23 15:20:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:20:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:20:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:20:41] glpiphplog.WARNING: Test logger  
+[2023-03-23 15:20:59] glpiphplog.WARNING: Test logger  
+[2023-03-23 15:21:27] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:21:27] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:21:27] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:22:09] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:22:09] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:22:09] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:23:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:23:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:23:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:24:00] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:24:00] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:24:00] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:24:33] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:24:33] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:24:33] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:25:59] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:29:08] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:29:08] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:29:08] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:39:06] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:39:06] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 15:39:06] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-23 16:37:23] glpiphplog.WARNING: Test logger  
+[2023-03-23 16:47:58] glpiphplog.WARNING: Test logger  
+[2023-03-24 08:23:00] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 08:23:00] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 08:23:00] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:14] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:24] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:31] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:31] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:31] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:39] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:39] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 10:23:39] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:16:35] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:16:35] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:16:35] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:30:03] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:30:03] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:30:03] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:31:32] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:31:32] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:31:33] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:33:22] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:33:27] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:33:27] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:33:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:33:29] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:33:30] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:11] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:11] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:11] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:14] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:14] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:14] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:37] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:37] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:35:37] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:39:39] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:39:39] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:39:39] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:40:13] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:40:13] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:40:13] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:43:14] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:43:14] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:43:14] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:44:21] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:44:21] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-24 15:44:21] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-27 13:29:48] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-27 13:29:48] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-03-27 13:29:49] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:16:41] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: CommonDBTM::displayAccessDeniedPage(): Argument #1 ($menus) must be of type array, string given, called in /var/www/html/glpi/src/CommonDBTM.php on line 6399 in /var/www/html/glpi/src/CommonDBTM.php at line 6297
+  Backtrace :
+  src/CommonDBTM.php:6399                            CommonDBTM::displayAccessDeniedPage()
+  front/user.form.php:241                            CommonDBTM::displayFullPageForItem()
+  
+[2023-04-18 08:35:56] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: CommonDBTM::displayAccessDeniedPage(): Argument #1 ($menus) must be of type array, string given, called in /var/www/html/glpi/src/CommonDBTM.php on line 6399 in /var/www/html/glpi/src/CommonDBTM.php at line 6297
+  Backtrace :
+  src/CommonDBTM.php:6399                            CommonDBTM::displayAccessDeniedPage()
+  front/user.form.php:241                            CommonDBTM::displayFullPageForItem()
+  
+[2023-04-18 08:35:57] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: CommonDBTM::displayAccessDeniedPage(): Argument #1 ($menus) must be of type array, string given, called in /var/www/html/glpi/src/CommonDBTM.php on line 6399 in /var/www/html/glpi/src/CommonDBTM.php at line 6297
+  Backtrace :
+  src/CommonDBTM.php:6399                            CommonDBTM::displayAccessDeniedPage()
+  front/user.form.php:241                            CommonDBTM::displayFullPageForItem()
+  
+[2023-04-18 08:36:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:36:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:36:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:44:41] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:44:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:44:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:51:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:51:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:51:42] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:53:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:53:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-04-18 08:53:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 14:00:00] glpiphplog.WARNING: Test logger  
+[2023-05-04 14:04:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 14:04:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 14:04:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 14:16:31] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 14:16:31] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 14:16:31] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 17:08:58] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 17:08:58] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-04 17:08:58] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 07:34:37] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 07:34:37] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 07:34:37] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 07:38:10] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 07:38:10] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 07:38:10] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 16:28:51] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 16:28:51] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 16:28:51] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:11:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:11:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:11:54] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:12:20] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:12:20] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:12:20] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:26:57] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:26:57] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:26:57] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:31:52] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:31:52] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:31:52] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:34:36] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:34:36] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:34:36] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:40:10] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:40:10] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:40:10] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:40:43] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:40:43] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-05 17:40:43] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:06:45] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:06:45] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:06:45] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:07:23] glpiphplog.WARNING:   *** PHP User Warning (512): Falha na conexão. Se você usa um proxy, por favor configure-o. (Resolving timed out after 5000 milliseconds) in /var/www/html/glpi/src/Toolbox.php at line 1517
+  Backtrace :
+  src/Toolbox.php:1517                               trigger_error()
+  src/GLPINetwork.php:315                            Toolbox::callCurl()
+  src/Marketplace/View.php:147                       GLPINetwork::isServicesAvailable()
+  src/Marketplace/View.php:217                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src/Marketplace/View.php:122                       Glpi\Marketplace\View::installed()
+  src/CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax/common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-05-08 10:15:27] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:15:27] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:15:27] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:17:05] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:17:05] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 10:17:05] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 11:09:55] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 11:09:55] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 11:09:55] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 15:36:40] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 15:36:40] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 15:36:40] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 15:37:05] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 15:37:05] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2023-05-08 15:37:05] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Unsupported operand types: int + string in /var/www/html/glpi/src/Dashboard/Widget.php at line 851
+  Backtrace :
+  :                                                  Glpi\Dashboard\Widget::simpleBar()
+  src/Dashboard/Grid.php:989                         call_user_func()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  

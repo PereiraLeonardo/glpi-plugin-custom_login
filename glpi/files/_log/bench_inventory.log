@@ -1,0 +1,21 @@
+2023-03-29 15:48:27 [@canatiba]
+Computer:
+	prepare:
+		Execution time:      0.00106 segundo
+		Memory usage:        3 MB
+		Memory usage (real): 6 MB
+		Memory peak:         3.54 MB
+
+	handle:
+		Execution time:      0.6111 segundo
+		Memory usage:        4.52 MB
+		Memory usage (real): 8 MB
+		Memory peak:         10.06 MB
+
+	full:
+		Execution time:      1.23081 segundo
+		Memory usage:        4.42 MB
+		Memory usage (real): 8 MB
+		Memory peak:         10.06 MB
+
+Inventoried assets: Computer #1

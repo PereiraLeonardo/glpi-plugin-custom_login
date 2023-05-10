@@ -1,0 +1,35 @@
+1674052611
+cca4f8c9e18e743841dd6d92875250b6a02346e4
+a:1:{s:54:"top_ticket_Entity_158ece90-023e-439e-8986-95b96c423b01";s:1014:"      <style>
+         #chart-567572998 {
+            background-color: #fafafa;
+            color: #949494
+         }
+
+         .theme-dark #chart-567572998 {
+            background-color: #2e2e2e;
+            color: #949494;
+         }
+
+         #chart-567572998 .ct-label {
+            fill: #949494;
+            color: #949494;
+         }
+
+         .theme-dark #chart-567572998 .ct-label {
+            fill: #949494;
+            color: #949494;
+         }
+
+         
+      </style>
+      <div style="height: 100%">
+         <div class="card g-chart pie half filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+            id="chart-567572998">
+            <div class="chart ct-chart"><span class='empty-card no-data'>
+               <div>Nenhum dado encontrado</div>
+            <span></div>
+            <span class="main-label">Top chamados por entidades</span>
+            <i class="main-icon ti ti-stack"></i>
+         </div>
+      </div>";}
